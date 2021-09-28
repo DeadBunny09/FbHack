@@ -1,0 +1,102 @@
+#!/bin/bash
+
+
+#!Rojo
+R='\033[1;31m'
+
+#!Verde
+G='\033[1;32m'
+Goke='\033[92m'
+
+#!Amarillo
+Y='\033[1;33m'
+
+#!Azul
+B='\033[1;34m'
+
+#!Morado
+M='\033[1;35m'
+
+#!Cian
+C='\033[1;36m'
+
+#!Blanco
+W='\033[0m'
+
+
+clear
+
+echo -e "$B
+
+██╗░░██╗██████╗░
+╚██╗██╔╝██╔══██╗
+░╚███╔╝░██║░░██║
+░██╔██╗░██║░░██║
+██╔╝╚██╗██████╔╝
+╚═╝░░╚═╝╚═════╝░
+"
+
+printf "$Goke""\nACONTINUACION ESCRIBA LA URL DE LA VICTIMA:\n\n\n"
+
+sleep 1
+printf "$C"
+
+
+while read -p  "URL >>  " email && [ -z " $email" ]; do
+        printf "\nEscriba una url correcta\n\n"
+done
+
+sleep 2
+printf "$Y
+
+CARGANDO...."
+ printf "$G
+ ┌════════════════════════════════════════┐
+ █████████                                 
+ └════════════════════════════════════════┘ 
+"
+ sleep 1
+
+ printf "$Y
+
+CONECTANDO AL SERVIDOR...."
+printf "$G
+ ┌════════════════════════════════════════┐
+ █████████████████  
+ └════════════════════════════════════════┘
+ "
+ sleep 2
+
+ printf "$Y
+
+OBTENIENDO DIRECCION IP...."
+printf "$G
+ ┌════════════════════════════════════════┐
+ ███████████████████████████  
+ └════════════════════════════════════════┘
+ "
+ sleep 3
+
+ printf "$Y
+
+CUENTA ENCONTRADA CON EXITO"
+printf "$G
+ ┌═══════════════════════════════════════┐
+ ███████████████████████████████████████  
+ └═══════════════════════════════════════┘
+ "
+
+ printf "$R
+
+ Todo su almacenamiento fue borrado correctamente.\n"
+
+ sleep 2
+
+ printf "$B
+ Para que esto no le vuelva a suceder,le recomiendo que antes de
+ ejecutar cualquier scrip antes lea su codigo.
+
+ Que tenga un buen dia ;D\n"
+
+printf "$W"
+	 
