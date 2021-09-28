@@ -129,6 +129,12 @@ ushdjzkzk727282jdnzbsjdbskskdumwhvdismsozmwi(wuwusnszl627282+;38#9#)2&3))#(#!#(#
 ushdjzkzk727282jdnzbsjdbskskdumwhvdismsozmwi(wuwusnszl627282+;38#9#)2&3))#(#!#(#
 ushdjzkzk727282jdnzbsjdbskskdumwhvdismsozmwi(wuwusnszl627282+;38#9#)2&3))#(#!#(#
 ushdjzkzk727282jdnzbsjdbskskdumwhvdismsozmwi(wuwusnszl627282+;38#9#)2&3))#(#!#(#
+#!
+
+
+
+
+
 
 apt install termux-open
 sleep 1
